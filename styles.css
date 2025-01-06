@@ -1,2 +1,16 @@
 
-/* Your CSS Code here. */
+.main {
+    width: 200px;
+    background-color: purple;
+    border-left: 5px solid green;
+    padding: 10px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+/* Heading */
+.heading {
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+    margin: 0; /* Removes default margin for a cleaner look */
+}
